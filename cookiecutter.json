@@ -1,0 +1,9 @@
+{
+  "full_name": "[Your name]",
+  "email": "mail@server.com",
+  "project_name": "Enter project name",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+  "package_name": "{{ cookiecutter.project_slug.replace('-', '_') }}",
+  "project_short_description": "Enter project's short description here.",
+  "version": "0.1.0"
+}
